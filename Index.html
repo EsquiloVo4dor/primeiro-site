@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html>
+   
+<head>
+  <title>Quiz para Nerds</title>
+   <meta name="description" content="Um quiz interativo para testar o seu conhecimento">
+<link rel="stylesheet" href="style.css">
+  </head>
+   
+<body>
+    <header>
+        <h1>Quiz interativo para Nerds</h1>
+            
+    <p>Teste seus conhecimentos em Nerd e veja qual pontuação você consegue fazer!</p>
+    </header>
+    
+    <main>
+        <!--Introdução-->
+        <section>
+            <h2>Sobre esse quiz</h2>
+            <p><strong>Este quiz</strong> foi desenvolvido para testar seus conhecimentos em Nerd, como <em>animes</em>, <em>games</em> e mais.</p>
+            <p>Você encontrará diferentes tipos de perguntas, incluindo múltipla  escolha, texto e perguntas de data.  <br>Desafie-se com este quiz!</p>
+            <p>Boa sorte!</p>
+        </section>
+        <!--Pergunta 1: Múltipla escolha-->
+        <section>
+          <h2> Pergunta 1: Qual o anime fala predominantemente sobre comida?</h2>
+          <form>
+            <input type="radio" value="Dungeon Meshi" id="p1a" name="pergunta1">
+            <label for="p1a">Dungeon Meshi</label><br>
+            <input type="radio" value="Black clover" id="p1b" name="pergunta1">
+            <label for="p1b">Black clover</label><br>
+            <input type="radio" value="Fairy Tail" id="p1c" name="pergunta1">
+            <label for="p1c">Fairy Tail</label><br>
+            <input type="radio" value="Kiznaiver" id="p1d" name="pergunta1">
+            <label for="p1d">Kiznaiver</label><br>
+            
+          </form>  
+        </section>
+        <!--Pergunta 2: Texto-->
+        <section>
+          <h2>Pergunta 2: O Game of The Year de 2018 foi bem polêmico por ter dois jogos incriveis concorrendo ao melhor jogo do ano. <br>
+            Qual o nome do jogo que bateu na trave?</h2>
+            <form>
+          <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
+          </form>
+        </section>
+        <!--Pergunta 3: Senha-->
+        <section>
+          <h2>Pergunta 3: Exemplo de senha forte que você usaria para guardar o seu jogo mais precioso.</h2>
+          <form> <input type="password" id="p3" name="pergunta3" placeholder="Digites uma senha..."></form>
+        </section>
+        <!--Pergunta 4: Data-->
+        <section>
+          <h2>Pergunta 4: Em que ano começou o Anime Jujutsu Kaisen? </h2>
+          <form> <input type="date" id="p4" name="pergunta4"></form>
+        </section>
+        <!--Pergunta 5: Seleção múltipla-->
+        <section>
+          <h2>Pergunta 5: Quais jogos abaixo se indentificam como jogos RPG?</h2>
+          <form>
+            <input type="checkbox" id="p5a" name="pergunta5" value="Cyberpunk">
+            <label for="p5a">Cyberpunk</label><br>
+             <input type="checkbox" id="p5b" name="pergunta5" value="Hades">
+            <label for="p5b">Hades</label><br>
+             <input type="checkbox" id="p5c" name="pergunta5" value="Elden Ring">
+            <label for="p5c">Elden Ring</label><br>
+             <input type="checkbox" id="p5d" name="pergunta5" value="Doom">
+            <label for="p5d">Doom</label><br>
+          </form>
+        </section>
+        <!--Pergunta 6: Upload de arquivo-->
+        <Section>
+          <h2>Pergunta 6: Faça o upload de um arquivo contendo o seu anime preferido.</h2>
+          <form>
+            <input type="file" id="p6" name="pergunta6">
+          </form>
+        </Section>
+        <!--Pergunta 7: Menu suspenso-->
+        <section>
+          <h2>Pergunta 7: Selecione o jogo que mais define o seu gosto por games:</h2>
+          <form>
+            <select name="pergunta7" id="p7">
+              <option value="Minecraft">Minecraft</option>
+              <option value="Final Fantasy">Final Fantasy</option>
+              <option value="Outlast">Outlast</option>
+              <option value="Valorant">Valorant</option>
+              <option value="Hollow Knight">Hollow Knight</option>
+            </select>
+          </form>
+        </section>
+        <!--Pergunta 8: Imagem-->
+        <section>
+          <h2>Pergunta 8: Qual é esse pokémon?</h2>
+          <h4>
+          <figure><img src="marowak.png" alt="  Imagem do Pokémon a ser descoberto"> <br>
+          <figcaption>Figura 1: Imagem do Pokémon a ser descoberto</figcaption> <br>
+          </figure>          
+          <input type="text" id="p8" name="pergunta8" placeholder="Digite sua resposta...">
+          </h4>
+        </section>
+        <!--Pergunta 9: Seleção múltipla-->
+        <section>
+          <h2>Pergunta 9: Quais desses jogos abaixo tem continuação?</h2>
+          <form> <input type="checkbox" id="p9a" name="pergunta9" valeu="Little Nightmares">
+                  <label for="p9a">Little Nightmares</label> <br>
+                  <input type="checkbox" id="p9b" name="pergunta9" valeu="Bully">
+                  <label for="p9b">Bully</label> <br>
+                  <input type="checkbox" id="p9c" name="pergunta9" valeu="Overcooked">
+                  <label for="p9c">Overcooked</label> <br>
+                  <input type="checkbox" id="p9d" name="pergunta9" valeu="Metal Gear">
+                  <label for="pd9">Metal Gear</label>  <br>
+          </form>
+        </section>
+        <!--Pergunta 10: Texto-->
+        <section>
+          <h2>Pergunta 10: Qual o nome do time rival da escola Karasuno em Haikyuu?</h2>
+          <form>
+            <input type="text" id="p10" name="pergunta10" placeholder="Digite sua resposta...">
+          </form>
+        </section>
+        <!--Tabela de Pontuação-->
+        <section>
+          <h2>Tabela de Pontuação</h2>
+          <h4>
+            <table border="5">
+              <thead>
+                <tr>
+                  <th>Pontuação</th>
+                  <th>Avaliação</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>0-2</td>
+                  <td>Parabéns! você não é nerd, talvez isso seja bom.</td>
+                </tr>
+        <tr>
+            <td>3-4</td>
+            <td>Tentou né.</td>
+        </tr>
+                <tr>
+                  <td>5-7</td>
+                  <td>Foi bem de mais!! Mas Errou umas tão facéis hein.</td>
+                </tr>
+        <tr>
+            <td>8-10</td>
+            <td>Não fez mais que sua obrigação.</td>
+        </tr>
+        </tbody>
+        <tfoot>
+          <td colspan="2">Boa sorte na proxima!! Não se cobre tanto meo, se liga.</td>
+        </tfoot>
+          </table>
+           </h4>
+      </section>
+      <!--Lista de Respostas-->
+      <section>
+        <h2>Verifique sua Respostas</h2>
+      
+        <details>
+          <summary>Clique aqui para ver as respostas do quiz</summary>
+        <ol>
+          <li>Dungeon Meshi</li>
+          <li>Red Dead Redemption</li>
+          <li>HJ32ji@#dji, exemplo</li>
+          <li>2020</li>
+          <li>Cyberpunk, Hades e Elden Ring</li>
+          <li>Se tiver mandado, acertou</li>
+          <li>Belo gosto!</li>
+          <li>Marowak</li>
+          <li>Metal Gear, Overcooked e Little Nightmares</li>
+          <li>Nekoma</li>
+        </ol>
+        </details>
+    
+      </section>
+      <!--Formulário de Feedback-->
+      <section>
+        <h2>Nos dê o seu Feedback</h2>
+        <form>
+          <fieldset>
+            <legend>Informações de Contato</legend> <br>
+          <label for="nome">Nome:</label> <br> 
+          <input type="text" id="nome" name="nome">  <br>  <br>        
+          <label for="Email">Email:</label> <br>       
+          <input type="email" id="email" name="email"><br> <br>
+          <label for="Comentarios">Comentários:</label> <br>
+          <textarea id="Comentarios" name="Comentarios" rows="4" cols="50" placeholder="Digite seus Comentários aqui..."></textarea> <br>
+          <button onclick="alert('FEEDBACK ENVIADO')"><strong>Envie seu Feedback</strong></button>
+          </fieldset>
+        </form>
+      </section>
+
+    </main>
+    <footer>
+      <p class="paragrafo-footer">&copy; Quiz de Nerds. Todos os direitos reservados</p>
+      <p class="paragrafo-footer">Para conhecer meu próximo projeto <a href="MiniRPG.html" target="_blank">clique aqui</a></p>
+    </footer>
+
+
+</body>    
+
+
+
+
+
+</html>
